@@ -17,6 +17,7 @@ typedef struct packet {
 	uint8_t data[PACKET_SIZE] = { 0 };
 } packet;
 
+// TODO: Struggling with memory being overwritten! 
 typedef struct packet_array {
 	packet_array(size_t n_pack)
 	{
